@@ -130,3 +130,38 @@ header ul li a {
 .thumb li img {
     width: 100px;
 }
+
+.sci {
+    padding: auto;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #017143;
+    clip-path: circle(600px at right 800px);
+}
+
+.fa-brands {
+    color: white;
+    font-size: 1.5em;
+}
